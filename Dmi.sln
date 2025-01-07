@@ -1,0 +1,50 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dmi.AppHost", "Dmi.AppHost\Dmi.AppHost.csproj", "{F980B3BC-5422-45DA-94F4-CD76B7CB1BD1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dmi.ServiceDefaults", "Dmi.ServiceDefaults\Dmi.ServiceDefaults.csproj", "{2E28C751-2F89-4390-A2DD-8284FB278F2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dmi.ApiService", "Dmi.ApiService\Dmi.ApiService.csproj", "{222ADD88-B32F-4302-8B3B-BCB092696FC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dmi.Web", "Dmi.Web\Dmi.Web.csproj", "{3C1CFF98-1C3F-44A3-BD8F-9862FBE6A361}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Itens", "Solution Itens", "{BC619CAE-1076-43FA-BC9C-833E7BFB9F2C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "realms", "realms", "{C16E2716-E643-4F54-8D59-F4B848B5B3A3}"
+	ProjectSection(SolutionItems) = preProject
+		realms\weathershop-realm.json = realms\weathershop-realm.json
+		realms\weathershop-users.json = realms\weathershop-users.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F980B3BC-5422-45DA-94F4-CD76B7CB1BD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F980B3BC-5422-45DA-94F4-CD76B7CB1BD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F980B3BC-5422-45DA-94F4-CD76B7CB1BD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F980B3BC-5422-45DA-94F4-CD76B7CB1BD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E28C751-2F89-4390-A2DD-8284FB278F2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E28C751-2F89-4390-A2DD-8284FB278F2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E28C751-2F89-4390-A2DD-8284FB278F2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E28C751-2F89-4390-A2DD-8284FB278F2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{222ADD88-B32F-4302-8B3B-BCB092696FC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{222ADD88-B32F-4302-8B3B-BCB092696FC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{222ADD88-B32F-4302-8B3B-BCB092696FC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{222ADD88-B32F-4302-8B3B-BCB092696FC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C1CFF98-1C3F-44A3-BD8F-9862FBE6A361}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C1CFF98-1C3F-44A3-BD8F-9862FBE6A361}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C1CFF98-1C3F-44A3-BD8F-9862FBE6A361}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C1CFF98-1C3F-44A3-BD8F-9862FBE6A361}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C16E2716-E643-4F54-8D59-F4B848B5B3A3} = {BC619CAE-1076-43FA-BC9C-833E7BFB9F2C}
+	EndGlobalSection
+EndGlobal
